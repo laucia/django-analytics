@@ -1,0 +1,5 @@
+<h1>Analytics</h1>
+{% for name,analytic in analytics.items  %}
+	<h3>{{name}}</h3>
+	<div>{{ analytic.render }}</div>
+{% endfor %}
